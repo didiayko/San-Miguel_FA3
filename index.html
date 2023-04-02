@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(very) realistic life sim</title>
+</head>
+<body>
+    <h3> (very) realistic life simulator </h3>
+    <p> Before you start, you must remember: <br>
+        There are only 3 important things in this life, money, smarts, and muscles. <br>
+        Too much of a good thing is bad and too much of a bad thing is bad! And try not to be too boring, it's nice to be exciting! <br>
+        <br>
+        Oki go be born now! ('U')/~♡
+    </p>
+
+    <div id="a_stat">
+        <p class="money">Money: <span class="money" id="money">_</span></p>
+        <p class="smarts">Smarts: <span class="smarts" id="smarts">_</span></p>
+        <p class="muscles">Muscles: <span class="muscles" id="muscles">_</span></p>
+        <button id="stat_button" onclick="Stat()">Happy birthday!</button>
+    </div>
+
+    <div id="scene">
+        <p id="result">-</p>
+        <p>-</p>
+        <p id="ending">-</p>
+        <button id="scene_button" onclick="Scene()">Start life</button>
+    </div>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</body>
+
+</html>

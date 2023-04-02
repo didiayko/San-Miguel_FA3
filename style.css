@@ -1,0 +1,12 @@
+body {
+	background-color: #fad4e5;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+p {
+	font-family: TextFont;
+	font-size: 30px;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
